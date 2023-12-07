@@ -2,7 +2,7 @@ import React from "react";
 import layerheader from "../assets/images/gradiant.png";
 const Hedaer = () => {
   return (
-    <div className="flex-grow-1 d-flex align-items-center">
+    <div className="flex-grow-1 d-flex align-items-center position-relative z-1">
       <div className="container">
         <div>
           <p className="fs-5xl fw-sm font-family color-seacandary w-515">
