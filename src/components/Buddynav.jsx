@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Buddynav = () => {
   function nav() {
@@ -7,7 +8,7 @@ const Buddynav = () => {
   return (
     <div>
       <nav className="pt-4">
-        <div className=" container d-flex justify-content-between align-items-center">
+        <Container className="d-flex justify-content-between align-items-center">
           <ul className="mb-0 px-0">
             <li>
               <a
@@ -65,7 +66,7 @@ const Buddynav = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </Container>
       </nav>
     </div>
   );

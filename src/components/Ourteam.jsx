@@ -2,12 +2,12 @@ import React from "react";
 import PrimeBullister from "../assets/images/PrimeBullister.png";
 import salvdor from "../assets/images/salvdor-bulli.png";
 import metabully from "../assets/images/metabully.png";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const Ourteam = () => {
   return (
     <div>
       <div className="bg-color-primary m--1 " id="ourteam">
-        <div className="container pt-100">
+        <Container className="pt-100">
           <p className="font-family fs-4xl fw-lg color-seacandary text-center mb-0">
             Our Team
           </p>
@@ -58,7 +58,7 @@ const Ourteam = () => {
               </div>
             </Col>
           </Row>
-        </div>
+        </Container>
       </div>
     </div>
   );

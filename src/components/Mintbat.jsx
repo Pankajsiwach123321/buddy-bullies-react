@@ -1,6 +1,6 @@
 import React from "react";
 import gifbat from "../assets/gif/gif.gif";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const Mintbat = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const Mintbat = () => {
         className="bg-color-primary m--1 position-relative  z-1  pt-5"
         id="mint"
       >
-        <div className="container mt-5 ">
+        <Container className="mt-5 ">
           <Row>
             <Col lg={6}>
               <img alt="batgif" src={gifbat} className="w-100" />
@@ -78,7 +78,7 @@ const Mintbat = () => {
               </div>
             </Col>
           </Row>
-        </div>
+        </Container>
         <div className="shadow1"></div>
       </div>
     </div>

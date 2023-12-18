@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
     <div>
       <footer className="bg-footer m--1 bg-color-primary " id="join">
-        <div className="container pb-5">
+        <Container className="pb-5">
           <p className="font-family fs-4xl fw-lg color-seacandary text-center mb-0 pt-156">
             JOIN US
           </p>
@@ -116,7 +116,7 @@ const Footer = () => {
               </Row>
             </Col>
           </Row>
-        </div>
+        </Container>
       </footer>
     </div>
   );

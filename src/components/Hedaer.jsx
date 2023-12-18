@@ -1,9 +1,10 @@
 import React from "react";
 import layerheader from "../assets/images/gradiant.png";
+import { Container } from "react-bootstrap";
 const Hedaer = () => {
   return (
     <div className="flex-grow-1 d-flex align-items-center position-relative z-1">
-      <div className="container">
+      <Container>
         <div>
           <p className="fs-5xl fw-sm font-family color-seacandary w-515">
             Vitae nunc,{" "}
@@ -21,7 +22,7 @@ const Hedaer = () => {
           </button>
           <img alt="batgif" src={layerheader} className="w-100 gradient" />
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

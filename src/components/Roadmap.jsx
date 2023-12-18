@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Roadmap = () => {
   return (
       <div>
           <section className="bg-color-primary m--1 position-relative " id="Roadmap">
-        <div className="container pt-156">
+        <Container className="pt-156">
             <p className="font-family fs-4xl fw-lg color-seacandary text-center mb-0">Roadmap</p>
             <div className="timeline">
                 <div className="my-timeline left-50">
@@ -38,8 +39,7 @@ const Roadmap = () => {
             <p className="fs-3xl fw-md font-family color-seacandary w-786 mx-auto text-center mb-0">And
                 this just the
                 begining , the team is working on more suprises for our community. Buddybullies stronger together !!</p>
-        </div>
-        {/* <img src="./assets/image/shadow3.png" alt="shadow3" className="shadow3 w-50"> */}
+        </Container>
     </section>
     </div>
   )

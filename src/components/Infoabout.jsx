@@ -5,7 +5,7 @@ import bat3 from "../assets/images/card-bat-3.webp";
 import bat4 from "../assets/images/card-bat-4.webp";
 import bat5 from "../assets/images/card-bat-5.webp";
 import bat6 from "../assets/images/card-bat-6.webp";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 const myinfo = [
   {
     img: bat1,
@@ -92,9 +92,9 @@ const Infoabout = () => {
   return (
     <div>
       <div className="bg-color-primary m--1 pt-5">
-        <div className="container pt-5">
+        <Container className="pt-5">
           <Row className="pt-5">{myown}</Row>
-        </div>
+        </Container>
       </div>
     </div>
   );
